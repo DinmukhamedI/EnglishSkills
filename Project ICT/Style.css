@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+clear: both;
+}
+.vverh{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.container{
+margin: 0 auto;
+}
+.a1{
+font-size:19px;
+font-weight: 19px;
+color:black;
+}
+.a0{
+font-size:19px;
+font-weight: 19px;
+color:black;
+}
+.a1:hover{
+border-bottom:2px solid pink;
+}
+.a3{
+color:white;
+text-align: center;
+border:1px solid salmon;
+border-radius:15px;
+background-color: salmon;
+padding:5px 5px 5px 5px;
+}
+.a3:hover{
+border-color: maroon;
+background-color: maroon;
+}
+.midle1{
+margin: 0 auto;
+width: 100%;
+background-image: url(IMAGE/original_8f2fb968a05.jpg);
+height: 600px;
+}
+.midle1 .container{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+height: 600px;
+}
+.boxesofp{
+padding-top: 150px;
+text-align: center; 
+width: 700px;
+margin-left: 600px;
+}
+.p2{
+color:white;
+text-align: center;
+font-size:15px;
+width:300px;
+text-transform: uppercase;
+}
+.p3{
+color: white;
+font-size:30px;
+text-align: center;
+margin-top: 40px;
+width: 400px;
+text-transform: uppercase;
+}
+.p4{
+color: white;
+font-size:30px;
+text-align: center;
+margin-top: 20px;
+width: 610px;
+line-height: 25px;
+text-transform: uppercase;
+}
+.p5{
+color: white;
+font-size:30px;
+text-align: center;
+margin-top: 20px;
+line-height: 25px;
+width: 320px;
+text-transform: uppercase;
+}
+.p6{
+color: white;
+font-size:20px;
+text-align: center;
+margin-top: 30px;
+width: 250px;
+}
+.p7{
+color: white;
+font-size:20px;
+text-align: center;
+margin-top: 10px;
+width: 290px;
+}
+.a2{
+color:white;
+font-size:30px;
+text-align: center;
+margin-top: 5px;
+text-transform: uppercase;
+
+}
+.box2{
+margin-top:40px;
+margin-left: 600px;
+border:1px solid salmon;
+border-radius:15px;
+background-color: salmon;
+width: 200px;
+text-align: center;
+}
+.a2:hover{
+border-color: maroon;
+background-color: maroon;
+}
+.p3span{
+color: red;
+}
+.texts{
+margin-top: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.box3{
+width: 320px;
+}
+.box4{
+width: 310px;
+}
+.box5{
+width: 310px;
+}
+.box6{
+width: 310px;
+}
+.p8{
+color: black;
+font-size: 25px;
+text-align: left;
+}
+.p9{
+text-align: left;
+margin-top: 25px;
+color:black;
+font-size: 20px;
+}
+.box7{
+padding-top:20px;
+padding-bottom: 20px;
+}
+.p10{
+color:white;
+font-size: 20px;
+}
+.a4{
+margin-left: 15px;
+}
+.a4 img{
+width: 20px;
+height: 20px
+}
+footer{
+background-color: salmon;
+margin-top: 50px;
+}
+.box8{
+margin-left: 1200px;
+display: flex;
+align-items: center;
+}
+.tizery-hr {
+
+    border: 1px solid #c4c4c4; 
+    width: 820px;
+    margin: 30px auto;  
+    
+ 
+}
+.tizery-hr img {
+    width: 800px; 
+    height: 300px; 
+    display: block; 
+  margin: 0 auto;
+}
+.tizery-hr a {
+    color: #000 !important; /* Цвет ссылки, если требуется сменить стандартный цвет ссылок шаблона. Попробуйте удалить ее и посмотреть как у вас настроено по-умолчанию в шаблоне */
+    display: inline-block; /* Этим параметром мы говорим, чтобы блоки становились в одну строку и при низком разрешении красиво выстраивались друг под другом */
+    font-weight: bold; /* Делаем текст жирным. Если не нужно - просто удалите строку */
+    font-size: 16px !important; /* Размер шрифта у текста. Поэкспериментируйте с размером */
+    margin: 5px 0 5px 0; /* Задаем внешний отступ каждому блоку с тизером, чтобы при низком разрешении они не налазили друг на друга снизу и сверху. Соответственно по 5px сверху и снизу */
+    padding: 5px; /* Задаем внутренний отступ для каждого блока с тизером, чтобы тот же текст не прилипал к краям блока, если вы добавите ему рамку */
+    width: 200px; /* Задаем ширину блока каждого. Здесь можно сделать и 150px по ширине картинки, чтобы текст ровно под ней был. На ваше усмотрение */
+    vertical-align: top; /* Данный параметр выравнивает все тизеры по верхнему краю. Пригодится в случае, если у вас какой-то текст будет больше на 1-2 строки, чем остальные */
+}

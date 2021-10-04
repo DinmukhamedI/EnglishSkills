@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+clear: both;
+}
+.vverh{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.container{
+max-width: 1400px;
+margin: 0 auto;
+}
+.a1{
+font-size:19px;
+font-weight: 19px;
+color:black;
+}
+.a0{
+font-size:19px;
+font-weight: 19px;
+color:black;
+}
+.a1:hover{
+border-bottom:2px solid pink;
+}
+.a3{
+color:white;
+text-align: center;
+border:1px solid salmon;
+border-radius:15px;
+background-color: salmon;
+padding:5px 5px 5px 5px;
+}
+.a3:hover{
+border-color: maroon;
+background-color: maroon;
+}
+.p1{
+font-size:30px;
+margin-top: 30px;
+color: gray;
+padding-bottom: 20px;
+}
+.p1span{
+color:maroon;
+}
+.box2{
+width: 410px;
+}
+.box3{
+width: 410px;
+}
+.box4{
+width: 410px;
+}
+.boxes{
+display: flex;
+justify-content: space-between;
+align-items: center;	
+}
+.p2{
+margin-top: 20px;
+font-size: 25px;
+text-align: left;
+}
+.p2:hover{
+color:salmon;
+}
+.p3{
+margin-top: 20px;
+font-size: 20px;
+text-align: left;	
+}
+.p4{
+color:gray;
+margin-top: 20px;
+font-size: 22px;
+text-align: left;
+padding-bottom: 20px;	
+}
+.a5{
+color:salmon;
+margin-top: 30px;
+font-size: 20px;
+text-align: left;
+text-decoration: underline;
+}
+.a5:hover{
+color:maroon;
+text-decoration: none;
+}
+.p6{
+color:gray;
+margin-top: 20px;
+font-size: 22px;
+text-align: left;
+padding-bottom: 20px;	
+}
+.a7{
+color:salmon;
+margin-top: 30px;
+font-size: 20px;
+text-align: left;	
+text-decoration: underline;
+}
+.a7:hover{
+color:maroon;
+text-decoration: none;
+}
+.p5{
+margin-top: 30px;
+font-size: 18px;
+color:gray;
+text-align: left;
+}
+.p7{
+margin-top: 5px;
+font-size: 18px;
+color:gray;
+text-align: left;
+}
+.box4 img{
+width:400px ;
+height:400px ;
+}
+.p5span{
+color:white;
+opacity: 0;
+}
+.box7{
+padding-top:20px;
+padding-bottom: 20px;
+}
+.p10{
+color:white;
+font-size: 20px;
+}
+.a4{
+margin-left: 15px;
+}
+.a4 img{
+width: 20px;
+height: 20px
+}
+footer{
+background-color: salmon;
+margin-top: 50px;
+}
+.box8{
+margin-left: 1200px;
+display: flex;
+align-items: center;
+}
+
+
